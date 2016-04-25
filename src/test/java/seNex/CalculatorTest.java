@@ -21,7 +21,7 @@ public class CalculatorTest {
 	@Test
 	public void testMul() {
 		Calculator cal = new Calculator();
-		cal.sub(10,  20);
+		cal.mul(10,  20);
 		assertEquals(200, cal.getResult());
 	}
 
